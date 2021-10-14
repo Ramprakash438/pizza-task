@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza app</title>
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e5135d8a90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <nav class="navbar navbar-expand navbar-dark bg-primary"
+                style="position: sticky; top: 0px; z-index: 100000; display: flex; justify-content: space-between; font-family: Mulish;">
+                <span class="navbar titl navbar-brand">PIZZA APP
+                    <i class="fas fa-pizza-slice" aria-hidden="true"></i> </span>
+                <div class="navbar-nav">
+                    <div class="navLogout"><span class="bg_grey">Home</span></div>
+                    
+                    <div class="navLogout"><span class="bg_grey">Contact Us</span>
+                </div>
+            </nav>
+            <div class="container1" style>
+                <div class="forms-container" style="width: 100%;">
+                    <div class="signin-signup">
+                        <form class="sign-in-form">
+                            <h2 class="title" style="font-family: poppins;">Sign in</h2>
+                            <div class="input-field"><i class="fas fa-user" aria-hidden="true"></i><input name="email"
+                                    type="email" placeholder="Email"></div>
+                            <div class="input-field"><i class="fas fa-lock" aria-hidden="true"></i><input
+                                    name="password" type="password" placeholder="Password"></div><input type="submit"
+                                class="btn btn-primary" value="Login"><a href="/forget" style="font-family: Poppins;">Forgot
+                                Password?</a>
+                        </form>
+                        <form class="sign-up-form">
+                            <h2 class="title" style="font-family: poppins;">Sign up</h2>
+                            <div class="input-field"><i class="fas fa-user" aria-hidden="true"></i><input name="name"
+                                    type="text" placeholder="Name" value=""></div>
+                            <div class="input-field"><i class="fas fa-envelope" aria-hidden="true"></i><input
+                                    name="email" type="email" placeholder="Email" value=""></div>
+                            <div class="input-field"><i class="fas fa-phone" aria-hidden="true"></i><input type="text"
+                                    name="number" placeholder="Contact Number" value=""></div>
+                            <div class="input-field"><i class="fas fa-lock" aria-hidden="true"></i><input
+                                    name="password" type="password" placeholder="Password" value=""></div>
+                            <div class="input-field"><i class="fas fa-lock" aria-hidden="true"></i><input
+                                    type="password" name="confirmPassword" placeholder="Confirm Password" value="">
+                            </div><input type="submit" class="btn btn-primary" value="Sign up">
+                        </form>
+                    </div>
+                </div>
+                <div class="panels-container">
+                    <div class="panel left-panel">
+                        <div class="content">
+                            <h3 style="font-family: poppins;">New here ?</h3>
+                            <p style="font-family: poppins;">Sign Up and Start Ordering!</p>
+                            <button type="button"
+                                class="btn btn-primary" style="font-family: poppins;">Sign
+                                up</button>
+                        </div>
+                    </div>
+                    <div class="panel right-panel">
+                        <div class="content">
+                            <h3 style="font-family: poppins;">One of us ?</h3>
+                            <p style="font-family: poppins;">Sign In and get Started!</p>
+                            <button type="button"
+                                class="btn btn-primary" style="font-family: poppins;">Sign
+                                in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
